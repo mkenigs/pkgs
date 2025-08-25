@@ -1,1 +1,10 @@
 version = 1
+
+[build.debug]
+command = '''
+  mkdir $out
+  echo "debug" > $out/debug
+'''
+
+[install]
+hello.pkg-path = "hello"

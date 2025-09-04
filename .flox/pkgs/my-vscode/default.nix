@@ -35,6 +35,8 @@ let
     rust-lang.rust-analyzer
     vadimcn.vscode-lldb
     vscodevim.vim
+    # for flox-ui
+    esbenp.prettier-vscode
   ];
 in
 vscode-with-extensions.override {

@@ -37,6 +37,8 @@ let
     vscodevim.vim
     # for flox-ui
     esbenp.prettier-vscode
+
+    anthropic.claude-code
   ];
 in
 vscode-with-extensions.override {
